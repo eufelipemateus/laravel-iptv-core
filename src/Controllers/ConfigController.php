@@ -8,7 +8,7 @@ use FelipeMateus\IPTVCore\Model\IPTVCdn;
 use FelipeMateus\IPTVCore\Model\IPTVConfig;
 use FelipeMateus\IPTVCore\Class\Locale;
 
-class ConfigController extends Controller
+class ConfigController extends CoreController
 {
     /**
      * Show config page.
