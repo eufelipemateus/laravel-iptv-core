@@ -21,7 +21,6 @@ class ConfigController extends CoreController
         $data['locales'] = Locale::getList();
         $data["current_locate"] = IPTVConfig::get('CURRENT_LOCALE','br');
 
-
 		return view("IPTV::config", $data);
 	}
 

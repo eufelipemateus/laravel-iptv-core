@@ -1,14 +1,14 @@
 {
     "name": "felipemateus/iptv-core",
-    "version": "0.0.1",
-    "description": "",
+    "version": "1.0.0",
+    "description": "This package contains the core layouts, classes and other elements for the iptv-channels package.",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Felipe Mateus",
             "email": "eu@felipemateus.com",
-            "homepage": "https://felipemateus.com",
+            "homepage": "https://eufelipemateus.com",
             "role": "Developer"
         }
     ],
@@ -26,6 +26,9 @@
         "Playlist",
         "iptv-playlist",
         "m3u8",
+        "Core",
+        "IPtv-core",
+        "Core-channels",
         "laravel-package"
     ],
     "require": {
