@@ -6,7 +6,7 @@ use Illuminate\Routing\Router;
 use FelipeMateus\IPTVCore\Class\IPTVProviderBase;
 use FelipeMateus\IPTVCore\Middleware\PublicCdnMiddleware;
 use FelipeMateus\IPTVCore\Middleware\IPTVLocaleMiddleware;
-use FelipeMateus\IPTVCore\Resources\Menu;
+use FelipeMateus\IPTVCore\Dashs\ConfigDash;
 
 class IPTVProvider extends IPTVProviderBase {
 
@@ -23,6 +23,7 @@ class IPTVProvider extends IPTVProviderBase {
 		$this->loadViewsFrom(__DIR__.'/resources/views', 'IPTV');
 		$this->loadRoutesFrom(__DIR__.'/routes.php');
         $this->loadMenusFrom(__DIR__.'/resources/menu');
+        $this->registerDashboard();
 
         $this->publishes([
             __DIR__.'/resources/assets' => public_path('assets'),
@@ -42,6 +43,9 @@ class IPTVProvider extends IPTVProviderBase {
         $this->app->singleton('iptv-menu', function(){
             return new \FelipeMateus\IPTVCore\Class\IPTVMenu;
         });
+        $this->app->singleton('iptv-dashboard', function(){
+            return new \FelipeMateus\IPTVCore\Class\IPTVDashboard;
+        });
     }
 
     /**
@@ -52,6 +56,15 @@ class IPTVProvider extends IPTVProviderBase {
     private function registerMidleware(){
         $router = $this->app->make(Router::class);
         $router->aliasMiddleware('iptv_locale', IPTVLocaleMiddleware::class);
+    }
+
+    /**
+     * Regoster Dashboard card
+     *
+     * @return void
+     */
+    private function registerDashboard(){
+        $this->loadDashFrom(ConfigDash::class);
     }
 
 }

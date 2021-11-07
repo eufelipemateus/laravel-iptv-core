@@ -1,6 +1,6 @@
 {
     "name": "felipemateus/iptv-core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This package contains the core layouts, classes and other elements for the iptv-channels package.",
     "type": "library",
     "license": "MIT",
