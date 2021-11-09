@@ -21,6 +21,7 @@ class CreateIptvConfigTable extends Migration
             $table->char('type', 20)->default('string');
         });
 
+
         IPTVConfig::set('RADIO_STREAM',true,'bool');
         IPTVConfig::set('DOWNLOAD_FILE',false, 'bool');
         IPTVConfig::set('URL_CDN',false, 'bool');
