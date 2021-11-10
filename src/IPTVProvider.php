@@ -7,6 +7,7 @@ use FelipeMateus\IPTVCore\Class\IPTVProviderBase;
 use FelipeMateus\IPTVCore\Middleware\PublicCdnMiddleware;
 use FelipeMateus\IPTVCore\Middleware\IPTVLocaleMiddleware;
 use FelipeMateus\IPTVCore\Dashs\ConfigDash;
+use FelipeMateus\IPTVCore\Commands\MakeDashCommand;
 
 class IPTVProvider extends IPTVProviderBase {
 
@@ -28,6 +29,12 @@ class IPTVProvider extends IPTVProviderBase {
         $this->publishes([
             __DIR__.'/resources/assets' => public_path('assets'),
         ],"public");
+
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                MakeDashCommand::class,
+            ]);
+        }
     }
 
 
