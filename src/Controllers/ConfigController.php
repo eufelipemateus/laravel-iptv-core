@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use FelipeMateus\IPTVCore\Model\IPTVCdn;
 use FelipeMateus\IPTVCore\Model\IPTVConfig;
-use FelipeMateus\IPTVCore\Class\Locale;
+use FelipeMateus\IPTVCore\Helpers\Locale;
 
 class ConfigController extends CoreController
 {
@@ -20,6 +20,7 @@ class ConfigController extends CoreController
         $data["config_list"] = IPTVConfig::getAllBoleanSettings();
         $data['locales'] = Locale::getList();
         $data["current_locate"] = IPTVConfig::get('CURRENT_LOCALE','br');
+        $data["inputs"] =  IPTVConfig::getAllStringSettings();
 
 		return view("IPTV::config", $data);
 	}

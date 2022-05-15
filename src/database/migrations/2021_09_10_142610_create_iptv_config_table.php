@@ -25,6 +25,15 @@ class CreateIptvConfigTable extends Migration
         IPTVConfig::set('RADIO_STREAM',true,'bool');
         IPTVConfig::set('DOWNLOAD_FILE',false, 'bool');
         IPTVConfig::set('URL_CDN',false, 'bool');
+
+        IPTVConfig::set('BSINESS_NAME','Acme Corporation', 'string');
+        IPTVConfig::set('BSINESS_INDUSTRY','Software Development', 'string');
+        IPTVConfig::set('BSINESS_ADDRESS','Field 3, Moon', 'string');
+        IPTVConfig::set('BSINESS_PHONE','123.4456.4567', 'string');
+        IPTVConfig::set('BSINESS_EMAIL','mainl@example.com', 'string');
+        IPTVConfig::set('BSINESS_TAX_NO',"123478956", 'string');
+
+
     }
 
     /**

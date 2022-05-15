@@ -1,6 +1,6 @@
 <?php
 
-namespace FelipeMateus\IPTVCore\Class;
+namespace FelipeMateus\IPTVCore\Helpers;
 
 use FelipeMateus\IPTVCore\Interfaces\Dash;
 
