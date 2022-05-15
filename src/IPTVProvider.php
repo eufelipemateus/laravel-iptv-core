@@ -3,7 +3,7 @@
 namespace FelipeMateus\IPTVCore;
 
 use Illuminate\Routing\Router;
-use FelipeMateus\IPTVCore\Class\IPTVProviderBase;
+use FelipeMateus\IPTVCore\Helpers\IPTVProviderBase;
 use FelipeMateus\IPTVCore\Middleware\PublicCdnMiddleware;
 use FelipeMateus\IPTVCore\Middleware\IPTVLocaleMiddleware;
 use FelipeMateus\IPTVCore\Dashs\ConfigDash;
@@ -48,10 +48,10 @@ class IPTVProvider extends IPTVProviderBase {
     {
         //
         $this->app->singleton('iptv-menu', function(){
-            return new \FelipeMateus\IPTVCore\Class\IPTVMenu;
+            return new \FelipeMateus\IPTVCore\Helpers\IPTVMenu;
         });
         $this->app->singleton('iptv-dashboard', function(){
-            return new \FelipeMateus\IPTVCore\Class\IPTVDashboard;
+            return new \FelipeMateus\IPTVCore\Helpers\IPTVDashboard;
         });
     }
 
