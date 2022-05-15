@@ -45,6 +45,15 @@
 							</div>
 						</div>
 
+                        @foreach($inputs as $input)
+                        <div class="form-group">
+							<label for="name-{{$input['name']}}" class="col-md-4 control-label">{{ __($input['name']) }}:</label>
+							<div class="col-md-6">
+								<input id="name-{{$input['name']}}" type="text"   class="form-control" name="{{$input['name']}}" value="@if(isset($input['val'])){{ $input['val']}}@endif" placeholder="" required autofocus>
+							</div>
+						</div>
+                        @endforeach
+
 						<div class="row">
 							<div class="col-md-6 col-md-offset-5">
 								<button class="btn btn-primary"> {{ __('Save') }}</button>
