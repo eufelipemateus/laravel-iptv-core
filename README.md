@@ -1,4 +1,4 @@
-# Laravel IPTV Core - FelipeMateus\IPTVCore
+# Laravel IPTV Core - Tschope\IPTVCore
 
 ## Instaling
 

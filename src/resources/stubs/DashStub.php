@@ -1,7 +1,7 @@
 <?php
 namespace DummyNamespace ;
 
-use FelipeMateus\IPTVCore\Helpers\IPTVDashBase;
+use Tschope\IPTVCore\Helpers\IPTVDashBase;
 
 class DummyClass extends IPTVDashBase {
 

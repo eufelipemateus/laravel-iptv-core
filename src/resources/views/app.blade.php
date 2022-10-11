@@ -46,7 +46,7 @@
                     <span>Dashboard</span></a>
             </li>
 
-            {{ FelipeMateus\IPTVCore\Facades\IPTVMenu::view(); }}
+            {{ Tschope\IPTVCore\Facades\IPTVMenu::view(); }}
            <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
 

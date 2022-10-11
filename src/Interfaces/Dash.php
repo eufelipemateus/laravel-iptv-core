@@ -1,6 +1,6 @@
 <?php
 
-namespace FelipeMateus\IPTVCore\Interfaces;
+namespace Tschope\IPTVCore\Interfaces;
 
 Interface Dash{
     public static function view();

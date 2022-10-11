@@ -1,10 +1,10 @@
 <?php
 
-namespace FelipeMateus\IPTVCore\Helpers;
+namespace Tschope\IPTVCore\Helpers;
 
 use Illuminate\Support\ServiceProvider;
-use FelipeMateus\IPTVCore\Facades\IPTVMenu;
-use FelipeMateus\IPTVCore\Facades\IPTVDashboard;
+use Tschope\IPTVCore\Facades\IPTVMenu;
+use Tschope\IPTVCore\Facades\IPTVDashboard;
 
 class IPTVProviderBase extends ServiceProvider {
 

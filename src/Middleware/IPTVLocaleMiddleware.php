@@ -1,11 +1,11 @@
 <?php
 
-namespace  FelipeMateus\IPTVCore\Middleware;
+namespace  Tschope\IPTVCore\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
-use FelipeMateus\IPTVCore\Model\IPTVConfig;
+use Tschope\IPTVCore\Model\IPTVConfig;
 
 class IPTVLocaleMiddleware
 {

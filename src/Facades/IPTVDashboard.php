@@ -1,5 +1,5 @@
 <?php
-namespace FelipeMateus\IPTVCore\Facades;
+namespace Tschope\IPTVCore\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

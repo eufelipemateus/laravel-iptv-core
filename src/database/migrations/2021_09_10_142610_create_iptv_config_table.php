@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-use FelipeMateus\IPTVCore\Model\IPTVConfig;
+use Tschope\IPTVCore\Model\IPTVConfig;
 
 class CreateIptvConfigTable extends Migration
 {
