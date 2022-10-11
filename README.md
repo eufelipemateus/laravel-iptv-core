@@ -2,13 +2,13 @@
 
 ## Instaling
 
-Tested in Laravel 8.54.
+Tested in Laravel 9.11.
 
 ### Run the command below in root to install the package in your project
 
 ```bash
 
-composer require felipemateus/iptv-core  
+composer require tschope/iptv-core  
 
 ```
 
@@ -25,8 +25,6 @@ php artisan migrate
 
 ## License
 
-[![License](http://poser.pugx.org/felipemateus/iptv-customers/license)](https://packagist.org/packages/felipemateus/iptv-customers)
+[![License](http://poser.pugx.org/tschope/iptv-customers/license)](https://packagist.org/packages/tschope/iptv-customers)
 
-## Author
 
-[Felipe Mateus](https://eufelipemateus.com)
