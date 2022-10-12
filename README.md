@@ -2,7 +2,7 @@
 
 ## Instaling
 
-Tested in Laravel 8.54.
+Tested in Laravel 9.0.
 
 ### Run the command below in root to install the package in your project
 
@@ -25,7 +25,7 @@ php artisan migrate
 
 ## License
 
-[![License](http://poser.pugx.org/felipemateus/iptv-customers/license)](https://packagist.org/packages/felipemateus/iptv-customers)
+[![License](http://poser.pugx.org/felipemateus/iptv-core/license)](https://packagist.org/packages/felipemateus/iptv-core)
 
 ## Author
 
