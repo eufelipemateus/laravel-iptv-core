@@ -27,4 +27,6 @@ php artisan migrate
 
 [![License](http://poser.pugx.org/felipemateus/iptv-customers/license)](https://packagist.org/packages/felipemateus/iptv-customers)
 
+## Author
 
+[Felipe Mateus](https://eufelipemateus.com)
