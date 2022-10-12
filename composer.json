@@ -1,6 +1,6 @@
 {
     "name": "tschope/iptv-core",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "This package contains the core layouts, classes and other elements for the iptv-channels package.",
     "type": "library",
     "license": "MIT",
