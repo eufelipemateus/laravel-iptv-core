@@ -2,7 +2,7 @@
 
 ## Instaling
 
-Tested in Laravel 8.54.
+Tested in Laravel 9.11.
 
 ### Run the command below in root to install the package in your project
 
