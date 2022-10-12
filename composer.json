@@ -1,6 +1,5 @@
 {
     "name": "felipemateus/iptv-core",
-    "version": "1.1.0",
     "description": "This package contains the core layouts, classes and other elements for the iptv-channels package.",
     "type": "library",
     "license": "MIT",
@@ -32,8 +31,8 @@
         "laravel-package"
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "laravel/framework": "^8.54"
+        "php": "^8.0|^8.1",
+        "laravel/framework": "^9.11"
 	},
 	"autoload": {
         "psr-4": {
