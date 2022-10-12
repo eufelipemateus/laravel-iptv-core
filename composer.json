@@ -1,5 +1,5 @@
 {
-    "name": "tschope/iptv-core",
+    "name": "felipemateus/iptv-core",
     "version": "2.0.2",
     "description": "This package contains the core layouts, classes and other elements for the iptv-channels package.",
     "type": "library",
@@ -37,21 +37,21 @@
 	},
 	"autoload": {
         "psr-4": {
-            "Tschope\\IPTVCore\\":"src/"
+            "FelipeMateus\\IPTVCore\\":"src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tschope\\IPTVCore\\IPTVProvider"
+                "FelipeMateus\\IPTVCore\\IPTVProvider"
             ]
         }
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "suggest": {
-        "tschope/iptv-customers": "Allows you to control customers, plans assigned to each channel.",
-        "tschope/iptv-channels": "Allows you to control channels, groups and cdn."
+        "felipemateus/iptv-customers": "Allows you to control customers, plans assigned to each channel.",
+        "felipemateus/iptv-channels": "Allows you to control channels, groups and cdn."
 
     }
 }

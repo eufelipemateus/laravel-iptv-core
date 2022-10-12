@@ -1,12 +1,12 @@
 <?php
 
-namespace  Tschope\IPTVCore\Controllers;
+namespace  FelipeMateus\IPTVCore\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
-use Tschope\IPTVCore\Model\IPTVCdn;
-use Tschope\IPTVCore\Model\IPTVConfig;
-use Tschope\IPTVCore\Helpers\Locale;
+use FelipeMateus\IPTVCore\Model\IPTVCdn;
+use FelipeMateus\IPTVCore\Model\IPTVConfig;
+use FelipeMateus\IPTVCore\Helpers\Locale;
 
 class ConfigController extends CoreController
 {

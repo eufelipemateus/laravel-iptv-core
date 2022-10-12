@@ -1,8 +1,8 @@
 <?php
 
-namespace Tschope\IPTVCore\Helpers;
+namespace FelipeMateus\IPTVCore\Helpers;
 
-use Tschope\IPTVCore\Interfaces\Dash;
+use FelipeMateus\IPTVCore\Interfaces\Dash;
 
 class IPTVDashBase implements Dash {
     public static function view(){

@@ -1,17 +1,17 @@
-@if(\Composer\InstalledVersions::isInstalled('tschope/iptv-channels'))
+@if(\Composer\InstalledVersions::isInstalled('felipemateus/iptv-channels'))
 <div>
-tschope/iptv-channels {{\Composer\InstalledVersions::getPrettyVersion('tschope/iptv-channels'); }}
+felipemateus/iptv-channels {{\Composer\InstalledVersions::getPrettyVersion('felipemateus/iptv-channels'); }}
 </div>
 @endif
 
-@if(\Composer\InstalledVersions::isInstalled('tschope/iptv-core'))
+@if(\Composer\InstalledVersions::isInstalled('felipemateus/iptv-core'))
 <div>
-tschope/iptv-core {{\Composer\InstalledVersions::getPrettyVersion('tschope/iptv-core'); }}
+felipemateus/iptv-core {{\Composer\InstalledVersions::getPrettyVersion('felipemateus/iptv-core'); }}
 </div>
 @endif
 
-@if(\Composer\InstalledVersions::isInstalled('tschope/iptv-customers'))
+@if(\Composer\InstalledVersions::isInstalled('felipemateus/iptv-customers'))
 <div>
-tschope/iptv-customers {{\Composer\InstalledVersions::getPrettyVersion('tschope/iptv-customers'); }}
+felipemateus/iptv-customers {{\Composer\InstalledVersions::getPrettyVersion('felipemateus/iptv-customers'); }}
 </div>
 @endif

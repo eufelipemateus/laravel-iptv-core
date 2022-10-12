@@ -18,7 +18,7 @@
 <div class="container">
     <div class="row">
 
-        {{  Tschope\IPTVCore\Facades\IPTVDashboard::view();  }}
+        {{  FelipeMateus\IPTVCore\Facades\IPTVDashboard::view();  }}
 
     </div>
 </div>

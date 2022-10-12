@@ -1,6 +1,6 @@
 <?php
 
-namespace Tschope\IPTVCore\Model;
+namespace FelipeMateus\IPTVCore\Model;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

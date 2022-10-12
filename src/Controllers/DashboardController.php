@@ -1,5 +1,5 @@
 <?php
-namespace  Tschope\IPTVCore\Controllers;
+namespace  FelipeMateus\IPTVCore\Controllers;
 
 class DashboardController extends CoreController {
 

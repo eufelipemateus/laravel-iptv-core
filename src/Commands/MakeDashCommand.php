@@ -1,6 +1,6 @@
 <?php
 
-namespace Tschope\IPTVCore\Commands;
+namespace FelipeMateus\IPTVCore\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace Tschope\IPTVCore;
+namespace FelipeMateus\IPTVCore;
 
 use Illuminate\Routing\Router;
-use Tschope\IPTVCore\Helpers\IPTVProviderBase;
-use Tschope\IPTVCore\Middleware\PublicCdnMiddleware;
-use Tschope\IPTVCore\Middleware\IPTVLocaleMiddleware;
-use Tschope\IPTVCore\Dashs\ConfigDash;
-use Tschope\IPTVCore\Commands\MakeDashCommand;
+use FelipeMateus\IPTVCore\Helpers\IPTVProviderBase;
+use FelipeMateus\IPTVCore\Middleware\PublicCdnMiddleware;
+use FelipeMateus\IPTVCore\Middleware\IPTVLocaleMiddleware;
+use FelipeMateus\IPTVCore\Dashs\ConfigDash;
+use FelipeMateus\IPTVCore\Commands\MakeDashCommand;
 
 class IPTVProvider extends IPTVProviderBase {
 
@@ -48,10 +48,10 @@ class IPTVProvider extends IPTVProviderBase {
     {
         //
         $this->app->singleton('iptv-menu', function(){
-            return new \Tschope\IPTVCore\Helpers\IPTVMenu;
+            return new \FelipeMateus\IPTVCore\Helpers\IPTVMenu;
         });
         $this->app->singleton('iptv-dashboard', function(){
-            return new \Tschope\IPTVCore\Helpers\IPTVDashboard;
+            return new \FelipeMateus\IPTVCore\Helpers\IPTVDashboard;
         });
     }
 

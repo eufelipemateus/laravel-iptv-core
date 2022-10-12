@@ -1,7 +1,7 @@
 <?php
-namespace Tschope\IPTVCore\Dashs;
+namespace FelipeMateus\IPTVCore\Dashs;
 
-use Tschope\IPTVCore\Helpers\IPTVDashBase;
+use FelipeMateus\IPTVCore\Helpers\IPTVDashBase;
 
 class ConfigDash extends IPTVDashBase{
 

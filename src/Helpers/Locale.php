@@ -1,5 +1,5 @@
 <?php
-namespace Tschope\IPTVCore\Helpers;
+namespace FelipeMateus\IPTVCore\Helpers;
 
 class Locale {
 
