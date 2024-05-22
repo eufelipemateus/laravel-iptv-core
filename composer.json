@@ -31,8 +31,8 @@
         "laravel-package"
     ],
     "require": {
-        "php": "^8.0|^8.1",
-        "laravel/framework": "^9.11"
+        "php": "^8.2",
+        "laravel/framework": "^11"
 	},
 	"autoload": {
         "psr-4": {
