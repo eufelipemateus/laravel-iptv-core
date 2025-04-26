@@ -1,5 +1,7 @@
 # Laravel IPTV Core - FelipeMateus\IPTVCore
 
+# Atention! This package was moved to laravel-iptv-cms
+
 ## Instaling
 
 Tested in Laravel 9.0.
